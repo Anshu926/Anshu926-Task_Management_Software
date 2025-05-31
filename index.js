@@ -32,7 +32,7 @@ app.use(
         resave: false,
         saveUninitialized: true,
         store: MongoStore.create({
-            mongoUrl: mongo_url,
+            mongoUrl: "mongodb+srv://TM_sotware_owner:CiFvtpX2QroZfyg0@cluster0.6hhoa.mongodb.net/TM_Software?retryWrites=true&w=majority&appName=Cluster0",
             crypto: {
                 secret:  "yourSecretKey",
             },
